@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TheTaskJS/css/style.css">
+    <script src="../TheTaskJS/js/app.js" defer></script>
+    <script src="../TheTaskJS/js/timer.js" defer></script>
+    <title>Пятнашки</title>
+</head>
+
+<body>
+    <footer class="header">
+        <h1 class="title-text">Игра <span>"Пятнашки"</span></h1>
+    </footer>
+    <div class="interface-field">
+        <div class="field"></div>
+    </div>
+    <div class="interface-menu">
+        <div class="menu">
+            <div class="title-menu">
+                <div class="title-steps">Шаги
+                    <div class="steps_count" id="stepsCount">0</div>
+                </div>
+                <div class="title-time">Время<br>
+                    <input type="text" name="time" id="time" class="time-text" maxlength="2">
+                </div>
+                <div class="title-timer">Таймер
+                    <div id="timer" class="timer" name="timer">00:00</div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="buttonStart" class="button-start">Запустить</button>
+                <button id="buttonRefresh" class="button-refresh">Заново</button>
+                <button id="buttonSound" class="button-sound" data-title="По умолчанию звук выключен, нажмите один раз что бы включить!"><img src="../TheTaskJS/content/sound/SoundOff.png" alt="" width="18px" height="18px" id="img-sound"></button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
