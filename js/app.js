@@ -90,7 +90,7 @@ function move(index) {
 }
 
 
-const numbers = [...Array(15).keys()].sort(() => Math.random());
+const numbers = [...Array(15).keys()].sort(() => Math.random() - 0.5);
 
 for (let i = 1; i <= 15; i++) {
     const cell = document.createElement('div');
